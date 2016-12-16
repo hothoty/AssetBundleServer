@@ -20,6 +20,7 @@ namespace ServerAst
             if (args.Length == 0)
             {
                 Console.WriteLine("No commandline arguments, harcoded debug mode...");
+                Console.WriteLine("arg example : 'c:\\\\data\\\\assetbundles\\'\n");
             }
             else
             {
@@ -46,7 +47,7 @@ namespace ServerAst
                     break;
             }
             ws.Stop();
-            Console.WriteLine("server stop complete.");
+            Console.WriteLine("server stop complete. Press any key to close window.");
             Console.ReadKey();
 
             //HttpListener listener = new HttpListener();
